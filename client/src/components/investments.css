@@ -1,0 +1,28 @@
+.invetments .in {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+    margin: 20px 0px 10px 0;
+}
+.stock-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 3px 1px rgba(128, 128, 128, 0.352);
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+.stock-container:hover{
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.823);
+    cursor: pointer;
+}
+
+@media screen and (max-height:770px) {
+    .invetments .in{
+        padding: auto;
+    }
+    .invetments .in ul{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,16 @@
+.c-user{
+    display: flex;
+    align-items: center;
+    background-color: #264b96;
+    color: white;
+    padding: 2vh 3.8vh;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.586);
+    cursor: pointer;
+}
+.c-user h1{
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 30px;
+}

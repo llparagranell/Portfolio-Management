@@ -1,0 +1,58 @@
+.form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 4vh;
+  margin: 2vh 1vw;
+  box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.586);
+  width: 20vw;
+  /* height: 88vh; */
+}
+.form form {
+  margin-top: 20px;
+}
+
+.form form input {
+  display: block;
+  margin: 5px 0 15px 0;
+  border: 1px solid rgba(128, 128, 128, 0.444);
+  border-radius: 5px;
+  outline: none;
+  padding: 0px 10px;
+  width: 18vw;
+  height: 5vh;
+}
+.form-btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  background-color: #264b96;
+  cursor: pointer;
+  margin: 10px 0 0 0;
+}
+.comunity {
+  background-color: white;
+  border-radius: 10px;
+  padding: 3vh 4vh;
+  margin: 2vh 1vw;
+  box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.586);
+  width: 20vw;
+}
+.comunity-navigator {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  background-color: #264b96;
+  cursor: pointer;
+  margin: 18px 0 0 0;
+}
+.comunity-navigator:hover {
+  box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.586);
+}
+.form-btn:hover {
+  box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.586);
+}
+

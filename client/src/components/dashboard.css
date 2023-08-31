@@ -1,0 +1,78 @@
+.dashboard{
+    width: 47vw;
+    overflow: scroll;
+    background-color: white;
+    border-radius: 10px;
+    padding: 4vh;
+    margin: 2vh 0;
+    height: 88vh;
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.586);
+}
+.dashboard::-webkit-scrollbar {
+    width: 0px;
+  }
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.card{
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 12.5vw;
+    padding: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.586);
+    color: white;
+}
+.card:nth-child(1) {
+    background: #006f3c;
+}
+.card:nth-child(2) {
+    background: #264b96;
+}
+.card:nth-child(3) {
+    background: #bf212f;
+}
+  
+.chart {
+    margin-top: 20px;
+}
+.investments{
+    margin-top: 20px;
+}
+.chart h2{
+    margin: 20px 0;
+}
+.flex{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.responsive{
+    display: none;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.responsive p:hover{
+    color: rgba(0, 0, 0, 0.581);
+}
+@media screen and (max-height:770px) {
+    .flex{
+        display: block;
+    }
+    .responsive{
+        display: flex;
+    }
+    .dashboard{
+        width: auto;
+        padding: 20px;
+    }
+    .card{
+        width: auto;
+        font-size: 12px;
+        padding: 12px 22px;
+    }
+}

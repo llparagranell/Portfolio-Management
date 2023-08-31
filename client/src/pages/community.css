@@ -1,0 +1,110 @@
+header{
+    text-align: center;
+    margin: 20px 0;
+    /* position: sticky; */
+}
+header h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+
+#community-section{
+    display: flex;
+    justify-content: center;
+}
+.c-scrol{
+    overflow: scroll;
+    height: 82vh;
+    border-right: 1px solid rgba(128, 128, 128, 0.69);
+    margin: 10px 0 0 0;
+}
+::-webkit-scrollbar {
+    width: 0px;
+  }
+.c-card{
+    background-color: white;
+    padding: 3vh;
+    border-radius: 10px;
+    width: 40vw;
+    margin: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.586);
+}
+.c-card:hover{
+    scale: 1.01;
+    cursor: pointer;
+}
+.c-card img{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: -webkit-fill-available;
+}
+.c-card p{
+    color: rgba(0, 0, 0, 0.76);
+    /* margin: 10px 0; */
+}
+.c-card div h3{
+    display: inline;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.c-card div{
+    display: flex;
+}
+.c-card div div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    /* background-color: black; */
+    margin-right: 15px;
+    margin-top: 12px;
+}
+
+.c-card div p{
+    /* display: inline; */
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #264b96;
+}
+.res{
+    display: none;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+.res p{
+    background-color: #264b96;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:750px) {
+.c-card{
+    width: auto;
+}
+.c-scrol {
+    border: none;
+}
+header h1{
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.res{
+    display: flex;
+}
+
+.comunity{
+    width: auto;
+}
+.form{
+    width: auto;
+    padding: 3vh;
+}
+.form form input{
+    width: -webkit-fill-available;
+}
+
+}
