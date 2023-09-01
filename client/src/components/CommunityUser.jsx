@@ -1,17 +1,17 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import "./communityuser.css";
-import axios from "axios";
+// import axios from "axios";
 import { FaRegUserCircle } from "react-icons/fa";
 
 function CommunityUser(props) {
-  const url = "http://localhost:5000/community/getPost";
+  // const url = "http://localhost:5000/community/getPost";
 
-  const [image, setImage] = useState();
+  // const [image, setImage] = useState();
 
-  const toBase64 = (uInt8Array) => btoa(String.fromCharCode(...uInt8Array));
-  useEffect(() => {
-    axios.get(url).then((res) => setImage(res.data));
-  }, []);
+  // const toBase64 = (uInt8Array) => btoa(String.fromCharCode(...uInt8Array));
+  // useEffect(() => {
+  //   axios.get(url).then((res) => setImage(res.data));
+  // }, []);
   //   if (items.Uniquekey === props.Uniquekey)
   // console.log(image[0].UniqueKey );
 

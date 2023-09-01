@@ -23,7 +23,9 @@ function Dashboard(props) {
           profit += Number(items.sell - items.buy);
           revenue += Number(items.buy);
           loss += Number(items.buy - items.sell);
-
+          return console.log("");
+        }else{
+          return <p>hello</p>
         }
       });
   }

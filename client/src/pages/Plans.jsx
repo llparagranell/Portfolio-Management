@@ -19,9 +19,9 @@ function Plans() {
             <li>10 Domains</li>
             <li>1GB Bandwidth</li>
             <li class="grey">
-              <a class="button">
+              <li class="button">
                 Buy Now
-              </a>
+              </li>
             </li>
           </ul>
         </div>
@@ -37,9 +37,9 @@ function Plans() {
             <li>25 Domains</li>
             <li>2GB Bandwidth</li>
             <li className="grey">
-              <a className="button">
+              <li className="button">
                 Buy Now
-              </a>
+              </li>
             </li>
           </ul>
         </div>
@@ -53,9 +53,9 @@ function Plans() {
             <li>50 Domains</li>
             <li>5GB Bandwidth</li>
             <li className="grey">
-              <a className="button">
+              <li className="button">
                 Buy Now
-              </a>
+              </li>
             </li>
           </ul>
         </div>

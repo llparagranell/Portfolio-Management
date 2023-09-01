@@ -16,7 +16,9 @@ function Comparison(props) {
   {
     data.map((e) => {
       if (e.Uniquekey === props.Uniquekey) {
-        dataPoints.push({ label: e.stock, y: Number(e.sell - e.buy) });
+       return dataPoints.push({ label: e.stock, y: Number(e.sell - e.buy) });
+      }else{
+        return <p>hello</p>
       }
     });
   }
