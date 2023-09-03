@@ -8,7 +8,7 @@ function Dashboard(props) {
   const [data, setData] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/stock/getstock")
+      .get("https://portfolio-mangement.onrender.com/stock/getstock")
       .then((res) => setData(res.data));
   }, []);
 

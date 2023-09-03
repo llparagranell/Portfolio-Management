@@ -25,7 +25,7 @@ function Register() {
 
   const handleform = (e) =>{
     e.preventDefault();
-    axios.post("http://localhost:5000/api/sign", user, config).then((res) => navigate('/',{ state: {tokenKey: res.data.token} }));
+    axios.post("https://portfolio-mangement.onrender.com/api/sign", user, config).then((res) => navigate('/',{ state: {tokenKey: res.data.token} }));
   }
 
   return (

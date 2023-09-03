@@ -22,7 +22,7 @@ function Post(props) {
   const handlesubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5000/community/uploads", formData)
+      .post("https://portfolio-mangement.onrender.com/community/uploads", formData)
       .then((res) => alert(res.data));
   };
 

@@ -8,7 +8,7 @@ function User(props) {
 
   const handleLogout = () => {
     axios
-      .get("http://localhost:5000/api/logout")
+      .get("https://portfolio-mangement.onrender.com/api/logout")
       .then((res) => alert(res.data));
     navigate("/ ");
   };

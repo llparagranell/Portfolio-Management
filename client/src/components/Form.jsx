@@ -23,7 +23,7 @@ function Form( props ) {
     }
     const handlesubmit = (e) => {
         e.preventDefault();
-        axios.post("http://localhost:5000/stock/stockdata",data).then((res)=>alert(res.data));
+        axios.post("https://portfolio-mangement.onrender.com/stock/stockdata",data).then((res)=>alert(res.data));
     }
     // console.log(props.token);
   return (

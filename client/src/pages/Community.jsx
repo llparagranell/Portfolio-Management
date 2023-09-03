@@ -7,7 +7,7 @@ import Post from "../components/Post";
 import { useLocation } from "react-router-dom";
 import CommunityUser from "../components/CommunityUser";
 
-const url = "http://localhost:5000/community/getPost";
+const url = "https://portfolio-mangement.onrender.com/community/getPost";
 function Community() {
   const [image, setImage] = useState();
   const [ open, setOpen ] = useState(true);
