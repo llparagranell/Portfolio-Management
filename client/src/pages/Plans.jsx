@@ -60,6 +60,7 @@ function Plans() {
           </ul>
         </div>
       </div>
+      
     </div>
   );
 }
